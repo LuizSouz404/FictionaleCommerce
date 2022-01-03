@@ -1,11 +1,12 @@
 .container {
   background: var(--shape);
   height: 4rem;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 7%);
 }
 
 .content {
   height: 100%;
-  max-width: 1120px;
+  max-width: 1200px;
   
   display: flex;
   align-items: center;
@@ -28,22 +29,20 @@ img.logo {
     display: flex;
     align-items: center;
 
-    padding: 0.5rem 1rem;
+    padding: .5rem;
 
     border: 0;
     border-radius: 0.5rem;
-    border: 1.5px solid #fff;
     
     font-size: 0.75rem;
 
-    background: #161116;
+    background: transparent;
     color: #fff;
 
-    transition: .5s background,color;
+    transition: .3s color;
 
     &:hover {
-      background: #fff;
-      color: #161116;
+      color: #c2c2c2;
     }
 
   }
@@ -51,9 +50,20 @@ img.logo {
 
 
 button.buttonWithIcon {
-  span {
-    padding-left: 0.5rem;
-  }
+  padding: 0;
+  border-radius: 100%;
+  background: #949494;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #FFF;
+  position: relative;
+  height: 2rem;
+  overflow: hidden;
+  width: 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 button.buttonBadge {

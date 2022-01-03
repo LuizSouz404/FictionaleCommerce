@@ -1,0 +1,39 @@
+.wrapper {
+  width: calc(100% - 3rem);
+  height: calc(100% - 1.8rem);
+  opacity: 0.2;
+  background: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  position: absolute;
+  
+}
+
+.container {
+  cursor: pointer;
+  background: #fff;
+  border-radius: .65rem;
+  height: 11.875rem;
+  overflow: hidden;
+  margin: 0.5rem;
+  padding: 0.95rem 1.5rem;
+  position: relative;
+
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.331);
+
+
+  img {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    height: 75%; 
+    right: 0;
+    top: 50%;
+    transform: translate(-20%, -50%); 
+  }
+
+  h1 {
+    color: #000;
+    z-index: 2;
+  }
+}
